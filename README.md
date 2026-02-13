@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 SignaJobs
 
-## Getting Started
+> An inclusive job portal designed to connect Deaf talent with inclusive companies.
 
-First, run the development server:
+SignaJobs is a personal portfolio project built to address employment accessibility gaps for the Deaf community. The platform focuses on accessible UX, inclusive hiring practices, and modern web technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Vision
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+SignaJobs aims to bridge the gap between Deaf professionals and companies committed to inclusive hiring. The platform prioritizes accessibility, clarity, and user-centered design from the ground up.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project reflects my commitment to accessible digital experiences and inclusive tech.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** React + TypeScript
+- **Styling:** TailwindCSS
+- **Database:** MongoDB
+- **Architecture:** Component-based scalable structure
+- **Focus:** Accessibility-first UX
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Core Features (Planned / In Progress)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- User authentication (Job seekers & Companies)
+- Accessible job listings
+- Profile creation with visual and structured information
+- Inclusive job filtering system
+- Responsive design
+- Accessibility best practices (WCAG considerations)
+
+---
+
+## ♿ Accessibility Approach
+
+SignaJobs is designed with:
+
+- Clear visual hierarchy
+- Simple and readable UI
+- High contrast color system
+- Structured layouts
+- Focus states and keyboard navigation
+- Inclusive language
+
+Accessibility is not an afterthought — it is part of the product strategy.
+
+---
+
+## 🧠 UX Strategy
+
+This project follows a user-centered design process:
+
+1. Problem definition  
+2. Community-focused research  
+3. User flows & wireframes  
+4. UI system design  
+5. Frontend implementation  
+6. Iteration & improvement  
+
+---
+
+## 💡 Why I Built This
+
+As a UX/UI designer and developer, I believe technology must reduce barriers — not create them.
+
+SignaJobs represents both my technical growth and my commitment to inclusive digital experiences.
+
+---
+
+## 📌 Status
+
+Currently in active development.
+
+Future improvements include:
+- Advanced filtering
+- Admin dashboard
+- Analytics
+- International expansion
+
+---
+
+## 🤝 Connect With Me
+
+If you are interested in inclusive design, accessibility, or collaboration opportunities, feel free to connect.
+
+---
+
+**Built with purpose. Designed for inclusion.**
