@@ -7,7 +7,8 @@ const db = client.db();
 
 export const auth = betterAuth({
     database: mongodbAdapter(db, {
-        client, 
+        client,
+        
     }),
     emailAndPassword: {
         enabled: true,
