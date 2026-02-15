@@ -57,6 +57,11 @@ export default function SignUp() {
                 </CardHeader>
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <CardContent className="space-y-4">
+                        {error && (
+                            <div className="rounded-md bg-destructive/15 text-sm text-destructive">
+                                {error}
+                            </div>
+                        )}
                         <div className="space-y-2">
                             <Label htmlFor="name" className="text-gray-700">Name</Label>
                             <Input 
@@ -92,7 +97,13 @@ export default function SignUp() {
                         </div>
                     </CardContent>
                     <CardFooter className="flex flex-col space-y-4">
-                    <Button type="submit" className="w-full bg-primary hover:bg-primary/90">Sign Up</Button>
+                    <Button 
+                    type="submit" 
+                    className="w-full bg-primary hover:bg-primary/90"
+                    disabled={loading}
+                    >
+                        {loading ? "Creating account..." :"Sign Up"}
+                    </Button>
                     <p className="text-center text-sm text-gray-600">
                         Already have an account?{" "}
                     <Link
